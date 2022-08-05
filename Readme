@@ -13,7 +13,7 @@ for example, given;
 
  Area of the rectangle = 8
  perimeter of the rectangle= 12
- 
+
 
  Problem 2
  Convert Celsius to Fahrenheit
@@ -33,3 +33,20 @@ convertToF(0) should return a value of 32
 convertToF(20) should return a value of 68
 
 convertToF(30) should return a value of 86
+
+
+Problem 3
+Solving quardratic equation
+
+From the quadratic equation form and formula below, we can easily solve quadratic problems.
+ax² + bx + c = 0
+x = -b ± √(b²-4ac)/2a
+
+For example:
+2x² – 5x + 3 = 0
+where a= 2, b=-5 and c=3
+implementing these 3 arguments into the function respectively, the root of the equation will be 3/2 and 1.
+
+For 2x² + x – 300 = 0 the root of the equation will be 12 and -12.5.
+
+For  x² + 4x - 5=0 the root of the equation will be -5 and 1.
