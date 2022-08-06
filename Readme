@@ -67,3 +67,15 @@ The queue function should then return the new array formed
 Test:
 queue([5,6,7,8,9], 1) should return [6,7,8,9,1]
 queue([0,4,5,2], 10) should return [4,5,2,10]
+
+Problem 5
+
+I was able to do some personal practice on array manipulation just to master the basics.
+
+The function below takes out the first element of an array and the last element from an array of numbers and sum the elements together. The result of the manipulated array will be the summed element coming as the first element of the array followed by the remaining element in that array.
+
+for example:
+
+[1,2,3,4,5] = [6,2,3,4]
+[3,4,2,5]= [8,4,2]
+[2,3,5,6,10,1] = [3,3,5,6,10]
