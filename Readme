@@ -50,3 +50,20 @@ implementing these 3 arguments into the function respectively, the root of the e
 For 2x² + x – 300 = 0 the root of the equation will be 12 and -12.5.
 
 For  x² + 4x - 5=0 the root of the equation will be -5 and 1.
+
+
+Problem 4
+
+I learnt about array manipulation and I was able to solve some basic algorithms on it.
+
+Algorithm question:
+
+In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
+
+Write a queue function which takes an array and a number as arguments.
+Add the number to the end of the array, then remove the first element of the array.
+The queue function should then return the new array formed
+
+Test:
+queue([5,6,7,8,9], 1) should return [6,7,8,9,1]
+queue([0,4,5,2], 10) should return [4,5,2,10]
