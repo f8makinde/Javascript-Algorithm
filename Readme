@@ -115,6 +115,14 @@ examination(101) should return "Score is not part of the grading system. Score i
 
 Problem 8
 
+
+On day 6/100 I used conditional logic to write a code that performs basic calculations but my attention was drawn to the usage of switch to write the algorithm. So I took my time to study about switch statement and I looked for a way to integrate it into my existing code.
+
+Switch statement is suitable when you have many options to choose from. The case values are tested with strict equality (===) and the break tells JavaScript to stop executing statements.
+
+
+Problem 9
+
 On day 4/100 I wrote an algorithm on queue which takes an array and a number as arguments and add the number to the end of the array, then removes the first element of the array.
 
 For day 8/100 I will be adding some conditions to that algorithm which are;
