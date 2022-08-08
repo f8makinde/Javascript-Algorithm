@@ -85,3 +85,45 @@ Problem 6
 I learnt about conditional logic and I wrote a code that performs basic calculations.
 
 The function takes in 3 arguments which are the first number, operator and second number respectively.
+
+Problem 7
+
+Grading System.
+
+Using conditional logic and comparisons, Write an algorithm that takes in a score and grade them according to the grading system provided below.
+
+70 - 100 : Grade A
+60 - 69  : Grade B
+50 - 59  : Grade C
+40 - 49  : Grade D
+0  - 39   : Carry Over
+
+NB:
+* The scores should strictly be in numbers (not in string or any data type).
+* No negative numbers.
+* Number should not go beyond or below this grade range(Use conditions to take care of the excesses)
+
+Hint:
+
+examination(74) should return "Grade A"
+
+examination("74") should return "This is not a score. We only process numbers."
+
+examination(-4) should return "Score can not be a negative number. Score is too low."
+
+examination(101) should return "Score is not part of the grading system. Score is too high."
+
+Problem 8
+
+On day 4/100 I wrote an algorithm on queue which takes an array and a number as arguments and add the number to the end of the array, then removes the first element of the array.
+
+For day 8/100 I will be adding some conditions to that algorithm which are;
+
+* The element that will be added to the array must be strictly number and should return the original array if otherwise.
+
+* If the value of the element added is less(smaller) than that of the first element in the array, the elements positions should be interchanged.
+
+For example:
+queue([1,2,4,5], "4") return [1,2,4,5]
+queue([5,2,4,5], 1) return [1,4,5,2]
+queue([5,2,4,5], 7) return [2,4,5,7]
