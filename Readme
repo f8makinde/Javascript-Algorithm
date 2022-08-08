@@ -135,3 +135,72 @@ For example:
 queue([1,2,4,5], "4") return [1,2,4,5]
 queue([5,2,4,5], 1) return [1,4,5,2]
 queue([5,2,4,5], 7) return [2,4,5,7]
+
+Problem 10
+
+I wrote a counting card algorithm. I got the algorithm question from freecodecamp.
+
+
+Count Change: +1 Cards: 2, 3, 4, 5,6
+Count Change: 0 Cards: 7, 8, 9
+Count Change: -1 Cards: 10, 'J', 'Q', 'K', 'A'
+
+
+You will write a card counting function. It will receive a card parameter, which can be a number or a string, and increment or decrement the global count variable according to the card's value (see table). The function will then return a string with the current count and the string Bet if the count is positive, or Hold if the count is zero or negative. The current count and the player's decision (Bet or Hold) should be separated by a single space.
+Example Outputs: -3 Hold or 5 Bet
+Hint
+Do NOT reset count to 0 when value is 7, 8, or 9.
+Do NOT return an array.
+Do NOT include quotes (single or double) in the output.
+
+Cards Sequence 2, 3, 4, 5, 6 should return the string 5 Bet
+Cards Sequence 7, 8, 9 should return the string 0 Hold
+Cards Sequence 10, J, Q, K, A should return the string -5 Hold
+
+Problem 11
+
+Write a function that takes in an array of number and sum all the numbers in the array.
+
+Test cases
+[1,2,3,4] = 10
+[8,7,6] = 21
+[ ]= 0
+
+
+Problem 12
+
+Record Collection (freecodecamp)
+
+You are given an object literal representing a part of your musical album collection. Each album has a unique id number as its key and several other properties. Not all albums have complete information.
+
+
+You start with an updateRecords function that takes an object literal, records, containing the musical album collection, an id, a prop (like artist or tracks), and a value. Complete the function using the rules below to modify the object passed to the function.
+
+
+Your function must always return the entire record collection object.
+
+- If prop isn't tracks and value isn't an empty string, update or set that album's prop to value.
+
+- If prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it.
+
+- If prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array.
+
+- If value is an empty string, delete the given prop property from the album.
+
+Note: A copy of the recordCollection object is used for the tests.
+
+Test Cases:
+
+After updateRecords(recordCollection, 5439, "artist", "ABBA"), artist should be the string ABBA
+
+After updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me"), tracks should have the string Take a Chance on Me as the last and only element.
+
+After updateRecords(recordCollection, 2548, "artist", ""), artist should not be set
+
+After updateRecords(recordCollection, 1245, "tracks", "Addicted to Love"), tracks should have the string Addicted to Love as the last element.
+
+After updateRecords(recordCollection, 2468, "tracks", "Free"), tracks should have the string 1999 as the first element.
+
+After updateRecords(recordCollection, 2548, "tracks", ""), tracks should not be set
+
+After updateRecords(recordCollection, 1245, "albumTitle", "Riptide"), albumTitle should be the string Riptide
