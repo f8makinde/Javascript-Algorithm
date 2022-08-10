@@ -238,11 +238,20 @@ If both are true, then return the "value" of that property.
 If name does not correspond to any contacts then return the string No such contact.
 
 If prop does not correspond to any valid properties of a contact found to match name then return the string No such property.
+
 Example:
 lookUpProfile("Kristian", "lastName") should return the string Vos
 
 lookUpProfile("Sherlock", "likes") should return ["Intriguing Cases", "Violin"]
 
 lookUpProfile("Harry", "likes") should return an array
+
+
+
 Problem 15
 
+Write a function multiplyAll so that it returns the product of all the numbers in the sub-arrays of arr.
+
+Hint:
+[[1,2,3], [4,2]] should return 48
+[[5,6], [1,8], [3,4] should return 2880
