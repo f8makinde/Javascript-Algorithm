@@ -264,23 +264,41 @@ Hint:
 [[1,2], [9,3,4], [5,6,7]] should return [2,4,7]
 [[3,4], [9,8,0]] should return [4,0]
 
-<!-- 
-Problem 21
+
+Problem 17
+
+I wrote a JavaScript code that finds the factorial of any number.
+
+E.g
+5!= 120
+3! = 6
+10!= 3628800
+
+
+Problem 18
 Reverse the provided string.
 
 You may need to turn the string into an array before you can reverse it.
 
 Your result must be a string.
 
-Problem 22
-Return the factorial of the provided integer.
+Problem 19
 
-If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
+Find the Longest Word in a String
 
-Factorials are often represented with the shorthand notation n!
+Return the length of the longest word in the provided sentence.
+Your response should be a number.
 
-For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
+Test:
 
-Only integers greater than or equal to zero will be supplied to the function.
+findLongestWordLength("The quick brown fox jumped over the lazy dog") should return a number.
 
-Also create a while loop that counts from 2 to 9 -->
+findLongestWordLength("The quick brown fox jumped over the lazy dog") should return 6.
+
+findLongestWordLength("May the force be with you") should return 5.
+
+findLongestWordLength("Google do a barrel roll") should return 6.
+
+findLongestWordLength("What is the average airspeed velocity of an unladen swallow") should return 8.
+
+findLongestWordLength("What if we try a super-long word such as otorhinolaryngology") should return 19.
