@@ -302,3 +302,7 @@ findLongestWordLength("Google do a barrel roll") should return 6.
 findLongestWordLength("What is the average airspeed velocity of an unladen swallow") should return 8.
 
 findLongestWordLength("What if we try a super-long word such as otorhinolaryngology") should return 19.
+
+Problem 20
+
+Remove all even numbers and all odd numbers from an array of numbers.

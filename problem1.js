@@ -7,3 +7,5 @@ function perimeterOfARectangle(length, width){
     return 2 * (length * width);
 }
 console.log(perimeterOfARectangle(4, 6));
+
+
