@@ -310,3 +310,11 @@ Remove all even numbers and all odd numbers from an array of numbers.
 Problem 22
 
 Sorting an array in ascending and descending order
+
+
+Problem 23
+
+The function takes in an array of numbers and a number as an argument... the number sums up with each element in the array.And return it inside an array
+Example
+[1, 2, 3, 4, 5], 3
+[4, 5, 6, 7, 8]
