@@ -7,4 +7,4 @@ function multiplyAllNumbers(array){
     })
     return product;
 }
-console.log(multiplyAllNumbers([[1, 2, 3, 4]]))
+console.log(multiplyAllNumbers([[1, 2, 3, 4]]));
