@@ -318,3 +318,20 @@ The function takes in an array of numbers and a number as an argument... the num
 Example
 [1, 2, 3, 4, 5], 3
 [4, 5, 6, 7, 8]
+
+Problem 24
+
+Re-solving algorithm day 17/100 using a higher order function.
+
+Write a function multiplyAll so that it returns the product of all the numbers in the sub-arrays of arr.
+
+Hint:
+[[1,2,3], [4,2]] should return 48
+[[5,6], [1,8], [3,4] should return 2880
+
+
+Problem 26
+
+I wrote a function that replaces a word in a sentence, given that the sentence includes that word.
+
+NB: I used regex to eliminate case sensitivity and make changes global.
