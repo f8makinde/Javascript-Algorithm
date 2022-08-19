@@ -342,6 +342,11 @@ Hint:
 
 Problem 26
 
+Total sum Of elements in an array
+example [1, 2, 3, 4], [5, 7, 8, 9, 10, 2]
+
+Problem 27
+
 I wrote a function that replaces a word in a sentence, given that the sentence includes that word.
 
 NB: I used regex to eliminate case sensitivity and make changes global.
