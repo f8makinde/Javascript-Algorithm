@@ -1,5 +1,5 @@
 function sorting(arr){
-    if(arr == 0 || arr == 1){
+    if(arr.length < 4){
         return -1;
        }
     arr.sort();
@@ -8,4 +8,4 @@ function sorting(arr){
    return `${x} ${y}`
     
 }
-console.log(sorting([1,2,4,6,7,5]));
+console.log(sorting([1]));
