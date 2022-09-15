@@ -364,3 +364,7 @@ Problem 28
  Problem 29
 
  Problem Statement: Given an array, we have to find the largest element in the array.
+
+ Problem 30
+
+ Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn’t exist.
