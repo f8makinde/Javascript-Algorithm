@@ -40,3 +40,13 @@ Explanation: 5 is present in the 0th index
 
 Problem 37
 FizzBuzz
+
+Problem 38
+Demerit Points
+Speed Limit = 70
+
+5 -> 1 point
+
+ Math.floor(1.3)
+
+12 points -> suspended
