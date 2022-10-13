@@ -31,3 +31,5 @@ function calculateArray(array){
 
  const marks = [80, 80, 50]
  console.log(calculateGrade(marks))
+
+
