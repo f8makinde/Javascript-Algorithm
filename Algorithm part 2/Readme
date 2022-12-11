@@ -79,3 +79,6 @@ Grading system
  * 3. Inside the loop, call the callback function, passing the individual item you're currently looping over as the argument to your callback function
  * 4. If the callback function returns `true`, push the current item you're iterating on in the loop to the new array. If it returns `false`, don't push it to the array.
  * 5. When the loop is over, return the new array
+
+ Problem 47
+   Given the array below, chain the `.filter` and `.map` array methods together to turn the array into an array of string email addresses of only the people in the array who voted. Log the array of email addresses to the console
