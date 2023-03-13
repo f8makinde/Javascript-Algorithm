@@ -86,3 +86,7 @@ Grading system
    Give a number 'n', find the first 'n' element of the fibonacci sequence
    Problem 49
    Give a number 'n', find the nth element of the fibonacci sequence
+   Problem 50
+   Given an integer 'n', find the factorial of that integer
+   Problem 51
+   Given an integer 'n', find the factorial of that integer recursive factorial
